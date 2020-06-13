@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap');
 @import "./../node_modules/hamburgers/_sass/hamburgers/hamburgers.scss";
 
+@font-face {
+    font-family: default;
+    src: url(./../fonts/BellotaText-Regular.ttf);
+}
 
 $shadow-card:   0px 2.57617px 5.39278px rgba(0, 0, 0, 0.0983083),
                 0px 6.51533px 13.6387px rgba(0, 0, 0, 0.126409),
@@ -37,7 +40,7 @@ $shadow:    0px 1.18992px 2.35217px rgba(0, 0, 0, 0.0562291),
 
 body {
     background-color: #271C85;
-    font-family: 'Bellota Text', cursive;
+    font-family: default;
 }
 
 .nav-blue {
